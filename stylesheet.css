@@ -87,5 +87,27 @@ footer {
     display: none;
 }
 
+#navList {
+    list-style-type: none;
+}
+
+.navListItem {
+    float: left;
+    padding-left: 10px;
+}
+
+.navListItemRight {
+    float: right
+}
+
+li a:hover {
+    background-color: #c23a3a;
+  }
+
+  li a {
+    color: white;
+    padding: 0px;
+    text-decoration: none;
+  }
 
 

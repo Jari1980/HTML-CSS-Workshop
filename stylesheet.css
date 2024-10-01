@@ -52,7 +52,7 @@ img {
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #305bb8;
     color: #fff;
     padding: 10px;
     border: none;
@@ -76,6 +76,14 @@ footer {
 .list-group-item {
     background-color: transparent;
     border: none;
+}
+
+#product1 {
+    display: none;
+}
+
+#product2 {
+    display: none;
 }
 
 

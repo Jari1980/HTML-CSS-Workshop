@@ -27,6 +27,10 @@ h2 {
     color: #4CAF50;
     text-align: center;
 }
+h3 {
+    color:black;
+    text-align: center;
+}
 
 .product {
     margin-left: auto;
@@ -63,4 +67,16 @@ footer {
     box-shadow: 5px 15px 5px 20px #0c0c0c;
     color: #fff;
     text-align: center;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
 }
+
+
+.list-group-item {
+    background-color: transparent;
+    border: none;
+}
+
+
+

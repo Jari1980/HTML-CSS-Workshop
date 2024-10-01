@@ -14,6 +14,14 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="stylesheet.css" />
+    <script>
+        function dateTime(){
+        var date = new Date();
+        var datetime = date.toLocaleString();
+        document.getElementById("datetime").innerHTML = datetime;
+        }
+        setInterval(dateTime, 1000);
+    </script>
   </head>
   <body>
     <header>
@@ -74,6 +82,6 @@
         <br/>
       </section>
     </main>
-    <footer>&copy; LEXICON Växjö</footer>
+    <footer>&copy; LEXICON Växjö <p id="datetime"></p></footer>
   </body>
 </html>

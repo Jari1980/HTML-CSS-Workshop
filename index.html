@@ -25,6 +25,12 @@
                 x.style.display = "block"
             }
         }
+        function dateTime(){
+        var date = new Date();
+        var datetime = date.toLocaleString();
+        document.getElementById("datetime").innerHTML = datetime;
+        }
+        setInterval(dateTime, 1000);
     </script>
 </head>
 <body>
@@ -122,7 +128,7 @@
     </main>
     <br />
     <footer>
-        &copy; LEXICON Växjö
+        &copy; LEXICON Växjö <p id="datetime"></p>
     </footer>
 </body>
 </html>

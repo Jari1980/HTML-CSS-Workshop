@@ -8,16 +8,20 @@
     <link rel="stylesheet" href="stylesheet.css">
     <script>
         function ViewItem1(){
-            console.log("Item one pressed")
             var x = document.getElementById("product1")
-            if ( x.style.display = "none"){
+            if ( x.style.display === "block"){
+                x.style.display = "none"
+            }
+            else {
                 x.style.display = "block"
             }
         }
         function ViewItem2(){
-            console.log("Item two pressed")
             var x = document.getElementById("product2")
-            if ( x.style.display = "none"){
+            if ( x.style.display === "block"){
+                x.style.display = "none"
+            }
+            else {
                 x.style.display = "block"
             }
         }
@@ -86,7 +90,7 @@
                 <div class="email-field">
                     <label>Email: test@test.se</label>
                 </div>
-                <button>Hide Details</button>
+                <button type="button" onclick="ViewItem1()">Hide Details</button>
             </div>
         
     
@@ -102,7 +106,7 @@
                 <div class="email-field">
                     <label>Email: test@test.se</label>
                 </div>
-                <button>Hide Details</button>
+                <button type="button" onclick="ViewItem2()">Hide Details</button>
             </div>
             </div>
         </section>

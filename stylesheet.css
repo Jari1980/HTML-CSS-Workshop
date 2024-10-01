@@ -97,6 +97,7 @@ footer {
 }
 
 .navListItemRight {
+    padding-right: 20px;
     float: right
 }
 
@@ -132,3 +133,18 @@ tr {
     border-bottom: 1px solid;
 }
 
+td {
+    align-content: center;
+}
+
+th {
+    align-content: center;
+}
+
+.sumCart{
+    float: inline-end;
+}
+
+#buttonPurchase {
+    float: right;
+}

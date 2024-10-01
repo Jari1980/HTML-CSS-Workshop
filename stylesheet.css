@@ -63,12 +63,13 @@ footer {
     margin-top: 20px;
     background-color: #000000;
     padding: 30px;
+    padding-top: 10px;
     border-radius: 10px;
     box-shadow: 5px 15px 5px 20px #0c0c0c;
     color: #fff;
     text-align: center;
+    position: fixed;
     bottom: 0;
-    position: absolute;
     width: 100%;
 }
 
